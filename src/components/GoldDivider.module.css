@@ -1,0 +1,32 @@
+.line {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+  margin: 2rem 0;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 2rem 0;
+}
+
+.lineLeft,
+.lineRight {
+  flex: 1;
+  height: 1px;
+}
+.lineLeft {
+  background: linear-gradient(90deg, transparent, var(--color-gold));
+}
+.lineRight {
+  background: linear-gradient(90deg, var(--color-gold), transparent);
+}
+
+.diamond {
+  color: var(--color-gold);
+  font-size: 0.65rem;
+  opacity: 0.7;
+  line-height: 1;
+}

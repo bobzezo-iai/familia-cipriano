@@ -1,0 +1,60 @@
+.coat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.image {
+  object-fit: contain;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ─── Compact (header) ─── */
+.compact {
+  width: 48px;
+  height: 58px;
+}
+.compact .image {
+  width: 48px;
+  height: 58px;
+}
+
+/* ─── Hero (home) ─── */
+.hero {
+  width: 200px;
+  height: 240px;
+}
+.hero .image {
+  width: 200px;
+  height: 240px;
+  filter: drop-shadow(0 0 30px rgba(200, 169, 90, 0.25));
+}
+.hero:hover .image {
+  transform: scale(1.03);
+}
+.glow {
+  position: absolute;
+  inset: -20px;
+  background: radial-gradient(circle, rgba(200, 169, 90, 0.12) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* ─── Watermark ─── */
+.watermark {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 480px;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.03;
+}
+.watermark .image {
+  width: 100%;
+  height: 100%;
+  filter: blur(1px);
+}

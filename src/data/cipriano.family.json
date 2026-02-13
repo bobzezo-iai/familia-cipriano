@@ -1,0 +1,334 @@
+{
+  "people": [
+    {
+      "id": "cipriano_jose_antonio_cipriano_0000",
+      "fullName": "José Antônio Cipriano",
+      "nickname": "Patriarca",
+      "sex": "M",
+      "birth": {},
+      "death": {},
+      "spouses": [{ "personId": "cipriano_maria_eduarda_silva_0000", "type": "casamento" }],
+      "childrenIds": [
+        "cipriano_helio_cipriano_0000",
+        "cipriano_jose_cipriano_0000",
+        "cipriano_rose_cipriano_0000",
+        "cipriano_maria_cipriano_0000",
+        "cipriano_katia_cipriano_1959",
+        "cipriano_ozana_cipriano_0000",
+        "cipriano_marilu_boaventura_1951"
+      ],
+      "bio": "José Antônio Cipriano, o patriarca da família Cipriano. Pai de sete filhos, construiu o legado familiar que se estende por gerações. Sua história e memória são preservadas com carinho por todos os seus descendentes.",
+      "tags": ["patriarca", "fundador"],
+      "photos": [],
+      "sources": ["Documentos de reconhecimento de espólio", "Relatos familiares"]
+    },
+    {
+      "id": "cipriano_maria_eduarda_silva_0000",
+      "fullName": "Maria Eduarda da Silva",
+      "nickname": "Dona Maria Eduarda",
+      "sex": "F",
+      "birth": {},
+      "death": {},
+      "spouses": [{ "personId": "cipriano_jose_antonio_cipriano_0000", "type": "casamento" }],
+      "childrenIds": [
+        "cipriano_helio_cipriano_0000",
+        "cipriano_jose_cipriano_0000",
+        "cipriano_rose_cipriano_0000",
+        "cipriano_maria_cipriano_0000",
+        "cipriano_katia_cipriano_1959",
+        "cipriano_ozana_cipriano_0000",
+        "cipriano_marilu_boaventura_1951"
+      ],
+      "bio": "Maria Eduarda da Silva, esposa de José Antônio Cipriano e matriarca da família. Mãe dedicada de sete filhos, foi a base da família Cipriano ao longo de toda sua vida.",
+      "tags": ["matriarca"],
+      "photos": [
+        "/photos/people/cipriano_maria_eduarda_silva_0000/profile.jpg",
+        "/photos/people/cipriano_maria_eduarda_silva_0000/01.jpg"
+      ],
+      "sources": ["Fotos de família", "Relatos familiares"]
+    },
+    {
+      "id": "cipriano_helio_cipriano_0000",
+      "fullName": "Hélio Cipriano",
+      "sex": "M",
+      "birth": {},
+      "fatherId": "cipriano_jose_antonio_cipriano_0000",
+      "motherId": "cipriano_maria_eduarda_silva_0000",
+      "spouses": [{ "personId": "cipriano_elizabeth_meyer_1973", "type": "casamento" }],
+      "childrenIds": [
+        "cipriano_jussara_cipriano_1991",
+        "cipriano_helio_cipriano_jr_1992",
+        "cipriano_eduardo_cipriano_1995",
+        "cipriano_josiane_cipriano_1997",
+        "cipriano_jose_augusto_cipriano_2000"
+      ],
+      "bio": "Hélio Cipriano, filho de José Antônio e Maria Eduarda. Casou-se com Elizabeth Meyer e juntos tiveram cinco filhos. Homem ligado à aviação, mantém presença ativa na família e na preservação do patrimônio familiar.",
+      "tags": ["herdeiro", "aviação"],
+      "photos": [
+        "/photos/people/cipriano_helio_cipriano_0000/profile.jpg"
+      ],
+      "sources": ["Fotos de família", "Documentos de espólio"]
+    },
+    {
+      "id": "cipriano_jose_cipriano_0000",
+      "fullName": "José Cipriano",
+      "sex": "M",
+      "birth": {},
+      "fatherId": "cipriano_jose_antonio_cipriano_0000",
+      "motherId": "cipriano_maria_eduarda_silva_0000",
+      "childrenIds": ["cipriano_carlos_cipriano_1965"],
+      "bio": "José Cipriano, filho de José Antônio e Maria Eduarda. Pai de Carlos Cipriano. Preservou a tradição familiar e contribuiu para manter a união entre os irmãos.",
+      "tags": ["herdeiro"],
+      "photos": [
+        "/photos/people/cipriano_jose_cipriano_0000/profile.jpg"
+      ],
+      "sources": ["Fotos de família"]
+    },
+    {
+      "id": "cipriano_rose_cipriano_0000",
+      "fullName": "Rose Cipriano Mueller",
+      "nickname": "Rose",
+      "sex": "F",
+      "birth": {},
+      "fatherId": "cipriano_jose_antonio_cipriano_0000",
+      "motherId": "cipriano_maria_eduarda_silva_0000",
+      "bio": "Rose Cipriano Mueller, filha de José Antônio e Maria Eduarda. Casou-se com a família Mueller. Mantém forte vínculo com a família Cipriano e participa ativamente da preservação da memória familiar.",
+      "tags": ["herdeira"],
+      "photos": [
+        "/photos/people/cipriano_rose_cipriano_0000/profile.jpg",
+        "/photos/people/cipriano_rose_cipriano_0000/01.jpg",
+        "/photos/people/cipriano_rose_cipriano_0000/02.jpg"
+      ],
+      "sources": ["Fotos de família"]
+    },
+    {
+      "id": "cipriano_maria_cipriano_0000",
+      "fullName": "Maria Cipriano",
+      "sex": "F",
+      "birth": {},
+      "fatherId": "cipriano_jose_antonio_cipriano_0000",
+      "motherId": "cipriano_maria_eduarda_silva_0000",
+      "bio": "Maria Cipriano, filha de José Antônio e Maria Eduarda. Herdeira e parte fundamental da história da família Cipriano.",
+      "tags": ["herdeira"],
+      "photos": [
+        "/photos/people/cipriano_maria_cipriano_0000/profile.jpg",
+        "/photos/people/cipriano_maria_cipriano_0000/01.jpg"
+      ],
+      "sources": ["Fotos de família"]
+    },
+    {
+      "id": "cipriano_katia_cipriano_1959",
+      "fullName": "Kátia Cipriano Metzner",
+      "nickname": "Kátia",
+      "sex": "F",
+      "birth": { "date": "13/05/1959" },
+      "fatherId": "cipriano_jose_antonio_cipriano_0000",
+      "motherId": "cipriano_maria_eduarda_silva_0000",
+      "bio": "Kátia Cipriano Metzner, nascida em 13 de maio de 1959, filha de José Antônio e Maria Eduarda. Casou-se com a família Metzner. Herdeira do patrimônio familiar Cipriano.",
+      "tags": ["herdeira"],
+      "photos": [
+        "/photos/people/cipriano_katia_cipriano_1959/profile.jpg"
+      ],
+      "sources": ["Documentos de espólio"]
+    },
+    {
+      "id": "cipriano_ozana_cipriano_0000",
+      "fullName": "Ozana Cipriano",
+      "sex": "F",
+      "birth": {},
+      "fatherId": "cipriano_jose_antonio_cipriano_0000",
+      "motherId": "cipriano_maria_eduarda_silva_0000",
+      "bio": "Ozana Cipriano, filha de José Antônio e Maria Eduarda. Herdeira e membro ativo da família Cipriano.",
+      "tags": ["herdeira"],
+      "photos": [
+        "/photos/people/cipriano_ozana_cipriano_0000/profile.jpg"
+      ],
+      "sources": ["Fotos de família"]
+    },
+    {
+      "id": "cipriano_marilu_boaventura_1951",
+      "fullName": "Marilu Boaventura",
+      "nickname": "Marilu",
+      "sex": "F",
+      "birth": { "date": "11/01/1951" },
+      "fatherId": "cipriano_jose_antonio_cipriano_0000",
+      "motherId": "cipriano_maria_eduarda_silva_0000",
+      "bio": "Marilu Boaventura, nascida em 11 de janeiro de 1951, filha de José Antônio e Maria Eduarda. Casou-se com a família Boaventura. Herdeira do patrimônio familiar Cipriano.",
+      "tags": ["herdeira"],
+      "photos": [
+        "/photos/people/cipriano_marilu_boaventura_1951/profile.jpg"
+      ],
+      "sources": ["Documentos de espólio"]
+    },
+    {
+      "id": "cipriano_elizabeth_meyer_1973",
+      "fullName": "Elizabeth Meyer",
+      "nickname": "Beth",
+      "sex": "F",
+      "birth": { "date": "07/09/1973" },
+      "spouses": [{ "personId": "cipriano_helio_cipriano_0000", "type": "casamento" }],
+      "childrenIds": [
+        "cipriano_jussara_cipriano_1991",
+        "cipriano_helio_cipriano_jr_1992",
+        "cipriano_eduardo_cipriano_1995",
+        "cipriano_josiane_cipriano_1997",
+        "cipriano_jose_augusto_cipriano_2000"
+      ],
+      "bio": "Elizabeth Meyer, nascida em 7 de setembro de 1973. Esposa de Hélio Cipriano e mãe de cinco filhos: Jussara, Hélio Jr., Eduardo, Josiane e José Augusto (falecido). Nora de José Antônio e Maria Eduarda.",
+      "tags": ["nora"],
+      "photos": [
+        "/photos/people/cipriano_elizabeth_meyer_1973/profile.jpg"
+      ],
+      "sources": ["Fotos de família"]
+    },
+    {
+      "id": "cipriano_jussara_cipriano_1991",
+      "fullName": "Jussara Meyer Cipriano",
+      "nickname": "Jussara",
+      "sex": "F",
+      "birth": { "date": "05/06/1991" },
+      "fatherId": "cipriano_helio_cipriano_0000",
+      "motherId": "cipriano_elizabeth_meyer_1973",
+      "bio": "Jussara Meyer Cipriano, nascida em 5 de junho de 1991. Filha de Hélio Cipriano e Elizabeth Meyer. Neta do patriarca José Antônio Cipriano.",
+      "tags": ["neta"],
+      "photos": [
+        "/photos/people/cipriano_jussara_cipriano_1991/profile.jpg"
+      ],
+      "sources": ["Fotos de família"]
+    },
+    {
+      "id": "cipriano_helio_cipriano_jr_1992",
+      "fullName": "Hélio Cipriano Filho",
+      "nickname": "Hélio Jr.",
+      "sex": "M",
+      "birth": { "date": "13/07/1992" },
+      "fatherId": "cipriano_helio_cipriano_0000",
+      "motherId": "cipriano_elizabeth_meyer_1973",
+      "bio": "Hélio Cipriano Filho, nascido em 13 de julho de 1992. Filho de Hélio Cipriano e Elizabeth Meyer, carrega o nome do pai. Neto do patriarca José Antônio Cipriano.",
+      "tags": ["neto"],
+      "photos": [
+        "/photos/people/cipriano_helio_cipriano_jr_1992/profile.jpg"
+      ],
+      "sources": ["Fotos de família"]
+    },
+    {
+      "id": "cipriano_eduardo_cipriano_1995",
+      "fullName": "Eduardo Meyer Cipriano",
+      "nickname": "Eduardo",
+      "sex": "M",
+      "birth": { "date": "05/11/1995" },
+      "fatherId": "cipriano_helio_cipriano_0000",
+      "motherId": "cipriano_elizabeth_meyer_1973",
+      "bio": "Eduardo Meyer Cipriano, nascido em 5 de novembro de 1995. Filho de Hélio Cipriano e Elizabeth Meyer. Neto do patriarca José Antônio Cipriano.",
+      "tags": ["neto"],
+      "photos": [
+        "/photos/people/cipriano_eduardo_cipriano_1995/profile.jpg"
+      ],
+      "sources": ["Fotos de família"]
+    },
+    {
+      "id": "cipriano_josiane_cipriano_1997",
+      "fullName": "Josiane Meyer Cipriano",
+      "nickname": "Josiane",
+      "sex": "F",
+      "birth": { "date": "07/06/1997" },
+      "fatherId": "cipriano_helio_cipriano_0000",
+      "motherId": "cipriano_elizabeth_meyer_1973",
+      "bio": "Josiane Meyer Cipriano, nascida em 7 de junho de 1997. Filha de Hélio Cipriano e Elizabeth Meyer. Neta do patriarca José Antônio Cipriano.",
+      "tags": ["neta"],
+      "photos": [
+        "/photos/people/cipriano_josiane_cipriano_1997/profile.jpg"
+      ],
+      "sources": ["Fotos de família"]
+    },
+    {
+      "id": "cipriano_jose_augusto_cipriano_2000",
+      "fullName": "José Augusto Meyer Cipriano",
+      "nickname": "José Augusto",
+      "sex": "M",
+      "birth": { "date": "21/11/2000" },
+      "death": {},
+      "fatherId": "cipriano_helio_cipriano_0000",
+      "motherId": "cipriano_elizabeth_meyer_1973",
+      "bio": "José Augusto Meyer Cipriano, nascido em 21 de novembro de 2000. Filho de Hélio Cipriano e Elizabeth Meyer. Falecido precocemente, sua memória é preservada com muito carinho por toda a família Cipriano. Neto do patriarca José Antônio.",
+      "tags": ["neto", "falecido", "in memoriam"],
+      "photos": [
+        "/photos/people/cipriano_jose_augusto_cipriano_2000/profile.jpg",
+        "/photos/people/cipriano_jose_augusto_cipriano_2000/01.jpg",
+        "/photos/people/cipriano_jose_augusto_cipriano_2000/02.jpg"
+      ],
+      "sources": ["Fotos de família"]
+    },
+    {
+      "id": "cipriano_carlos_cipriano_1965",
+      "fullName": "Carlos Cipriano",
+      "sex": "M",
+      "birth": { "date": "09/11/1965" },
+      "fatherId": "cipriano_jose_cipriano_0000",
+      "bio": "Carlos Cipriano, nascido em 9 de novembro de 1965. Filho de José Cipriano e neto do patriarca José Antônio Cipriano.",
+      "tags": ["neto"],
+      "photos": [
+        "/photos/people/cipriano_carlos_cipriano_1965/profile.jpg"
+      ],
+      "sources": ["Fotos de família"]
+    }
+  ],
+  "relationships": [
+    { "type": "marriage", "from": "cipriano_jose_antonio_cipriano_0000", "to": "cipriano_maria_eduarda_silva_0000", "unionType": "casamento" },
+    { "type": "marriage", "from": "cipriano_helio_cipriano_0000", "to": "cipriano_elizabeth_meyer_1973", "unionType": "casamento" },
+    { "type": "parent-child", "from": "cipriano_jose_antonio_cipriano_0000", "to": "cipriano_helio_cipriano_0000" },
+    { "type": "parent-child", "from": "cipriano_maria_eduarda_silva_0000", "to": "cipriano_helio_cipriano_0000" },
+    { "type": "parent-child", "from": "cipriano_jose_antonio_cipriano_0000", "to": "cipriano_jose_cipriano_0000" },
+    { "type": "parent-child", "from": "cipriano_maria_eduarda_silva_0000", "to": "cipriano_jose_cipriano_0000" },
+    { "type": "parent-child", "from": "cipriano_jose_antonio_cipriano_0000", "to": "cipriano_rose_cipriano_0000" },
+    { "type": "parent-child", "from": "cipriano_maria_eduarda_silva_0000", "to": "cipriano_rose_cipriano_0000" },
+    { "type": "parent-child", "from": "cipriano_jose_antonio_cipriano_0000", "to": "cipriano_maria_cipriano_0000" },
+    { "type": "parent-child", "from": "cipriano_maria_eduarda_silva_0000", "to": "cipriano_maria_cipriano_0000" },
+    { "type": "parent-child", "from": "cipriano_jose_antonio_cipriano_0000", "to": "cipriano_katia_cipriano_1959" },
+    { "type": "parent-child", "from": "cipriano_maria_eduarda_silva_0000", "to": "cipriano_katia_cipriano_1959" },
+    { "type": "parent-child", "from": "cipriano_jose_antonio_cipriano_0000", "to": "cipriano_ozana_cipriano_0000" },
+    { "type": "parent-child", "from": "cipriano_maria_eduarda_silva_0000", "to": "cipriano_ozana_cipriano_0000" },
+    { "type": "parent-child", "from": "cipriano_jose_antonio_cipriano_0000", "to": "cipriano_marilu_boaventura_1951" },
+    { "type": "parent-child", "from": "cipriano_maria_eduarda_silva_0000", "to": "cipriano_marilu_boaventura_1951" },
+    { "type": "parent-child", "from": "cipriano_helio_cipriano_0000", "to": "cipriano_jussara_cipriano_1991" },
+    { "type": "parent-child", "from": "cipriano_elizabeth_meyer_1973", "to": "cipriano_jussara_cipriano_1991" },
+    { "type": "parent-child", "from": "cipriano_helio_cipriano_0000", "to": "cipriano_helio_cipriano_jr_1992" },
+    { "type": "parent-child", "from": "cipriano_elizabeth_meyer_1973", "to": "cipriano_helio_cipriano_jr_1992" },
+    { "type": "parent-child", "from": "cipriano_helio_cipriano_0000", "to": "cipriano_eduardo_cipriano_1995" },
+    { "type": "parent-child", "from": "cipriano_elizabeth_meyer_1973", "to": "cipriano_eduardo_cipriano_1995" },
+    { "type": "parent-child", "from": "cipriano_helio_cipriano_0000", "to": "cipriano_josiane_cipriano_1997" },
+    { "type": "parent-child", "from": "cipriano_elizabeth_meyer_1973", "to": "cipriano_josiane_cipriano_1997" },
+    { "type": "parent-child", "from": "cipriano_helio_cipriano_0000", "to": "cipriano_jose_augusto_cipriano_2000" },
+    { "type": "parent-child", "from": "cipriano_elizabeth_meyer_1973", "to": "cipriano_jose_augusto_cipriano_2000" },
+    { "type": "parent-child", "from": "cipriano_jose_cipriano_0000", "to": "cipriano_carlos_cipriano_1965" }
+  ],
+  "historicalEvents": [
+    {
+      "id": "evento_reconhecimento_espolio_2025",
+      "title": "Reconhecimento de Espólio da Família Cipriano",
+      "date": "~2025",
+      "description": "Processo de reconhecimento do espólio da família Cipriano, envolvendo todos os herdeiros: Hélio, José, Rose, Maria, Kátia, Ozana e Marilu. Documentação fotográfica dos imóveis e propriedades da família foi realizada para registro.",
+      "personIds": [
+        "cipriano_helio_cipriano_0000",
+        "cipriano_jose_cipriano_0000",
+        "cipriano_rose_cipriano_0000",
+        "cipriano_maria_cipriano_0000",
+        "cipriano_katia_cipriano_1959",
+        "cipriano_ozana_cipriano_0000",
+        "cipriano_marilu_boaventura_1951"
+      ],
+      "photos": [
+        "/photos/documents/espolio/cabana-helio-1.jpg",
+        "/photos/documents/espolio/cabana-helio-2.jpg",
+        "/photos/documents/espolio/escombros-casa.jpg",
+        "/photos/documents/espolio/casa-familia-porto.jpg"
+      ],
+      "sources": ["Documentos do processo de espólio", "Registro fotográfico"]
+    }
+  ],
+  "metadata": {
+    "familyName": "Cipriano",
+    "generatedAt": "2026-02-13T00:00:00.000Z",
+    "version": "2.0.0"
+  }
+}

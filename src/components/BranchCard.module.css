@@ -1,0 +1,85 @@
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+.card:hover {
+  border-color: var(--color-border-strong);
+  box-shadow: var(--shadow-gold);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.name {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-text);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.name:hover {
+  color: var(--color-gold);
+}
+
+.nickname {
+  font-size: 0.82rem;
+  color: var(--color-gold);
+  font-style: italic;
+}
+
+.count {
+  font-size: 0.75rem;
+  color: var(--color-muted-text);
+  margin-top: 0.1rem;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.descendant {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.6rem 0.3rem 0.3rem;
+  border-radius: var(--radius-full);
+  background: rgba(200, 169, 90, 0.06);
+  border: 1px solid var(--color-border);
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+.descendant:hover {
+  background: rgba(200, 169, 90, 0.12);
+  border-color: var(--color-border-strong);
+}
+
+.descName {
+  font-size: 0.78rem;
+  color: var(--color-text);
+  white-space: nowrap;
+}
+
+.more {
+  font-size: 0.75rem;
+  color: var(--color-muted-text);
+  align-self: center;
+  padding: 0 0.5rem;
+}

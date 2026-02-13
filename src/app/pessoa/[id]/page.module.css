@@ -1,0 +1,139 @@
+.page {
+  padding: 2rem 0 4rem;
+}
+
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.82rem;
+  color: var(--color-muted-text);
+  text-decoration: none;
+  margin-bottom: 2rem;
+  transition: color 0.2s;
+}
+.back:hover {
+  color: var(--color-gold);
+}
+
+/* ─── Profile ─── */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.name {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0;
+}
+.nickname {
+  font-size: 0.9rem;
+  color: var(--color-gold);
+  font-style: italic;
+}
+.dates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+  color: var(--color-muted-text);
+  margin-top: 0.25rem;
+}
+.place {
+  opacity: 0.7;
+}
+.place::before {
+  content: '· ';
+}
+.tags {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+  margin-top: 0.35rem;
+}
+.tag {
+  font-size: 0.65rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: var(--radius-full);
+  background: rgba(200, 169, 90, 0.12);
+  color: var(--color-gold);
+  font-weight: 500;
+}
+
+/* ─── Sections ─── */
+.section {
+  margin-top: 2.5rem;
+}
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--color-gold);
+  margin-bottom: 1rem;
+}
+
+.bio {
+  font-size: 0.95rem;
+  color: var(--color-muted-text);
+  line-height: 1.75;
+  white-space: pre-line;
+}
+
+/* ─── Relations ─── */
+.relations {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.relGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.relLabel {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-accent2);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 0;
+}
+
+/* ─── Sources ─── */
+.sources {
+  list-style: none;
+  padding: 0;
+}
+.sources li {
+  font-size: 0.82rem;
+  color: var(--color-muted-text);
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+.sources li::before {
+  content: '— ';
+  color: var(--color-gold);
+}
+
+/* ─── Mobile ─── */
+@media (max-width: 600px) {
+  .profile {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .dates {
+    justify-content: center;
+  }
+  .tags {
+    justify-content: center;
+  }
+}

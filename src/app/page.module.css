@@ -1,0 +1,127 @@
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ─── Hero ─── */
+.hero {
+  background: linear-gradient(180deg, var(--color-bg-dark) 0%, var(--color-bg) 50%, var(--color-surface) 100%);
+  padding: 4rem 1.5rem 5rem;
+}
+.heroInner {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.75rem;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 6vw, 3.8rem);
+  font-weight: 700;
+  color: var(--color-gold);
+  letter-spacing: 0.04em;
+  margin-top: 1rem;
+}
+.subtitle {
+  font-size: 1rem;
+  color: var(--color-muted-text);
+  font-style: italic;
+  letter-spacing: 0.06em;
+}
+
+.stats {
+  display: flex;
+  gap: 3rem;
+  margin: 1rem 0;
+}
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.statNum {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-gold);
+}
+.statLabel {
+  font-size: 0.75rem;
+  color: var(--color-muted-text);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.ctas {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ctaPrimary {
+  padding: 0.75rem 2rem;
+  background: linear-gradient(135deg, var(--color-gold), #b09248);
+  color: var(--color-navy);
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: opacity 0.2s, transform 0.2s;
+}
+.ctaPrimary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  color: var(--color-navy);
+}
+.ctaSecondary {
+  padding: 0.75rem 2rem;
+  border: 1px solid var(--color-border-strong);
+  color: var(--color-gold);
+  font-weight: 500;
+  font-size: 0.9rem;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+.ctaSecondary:hover {
+  background: rgba(200, 169, 90, 0.08);
+  border-color: var(--color-gold);
+}
+
+/* ─── Sections ─── */
+.section {
+  padding: 4rem 0;
+}
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 600;
+  color: var(--color-text);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.seeAll {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.about {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--color-muted-text);
+  max-width: 60ch;
+  margin: 1rem auto 0;
+}

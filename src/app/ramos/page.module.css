@@ -1,0 +1,32 @@
+.page {
+  padding: 2rem 0 4rem;
+}
+
+.header {
+  margin-bottom: 1rem;
+}
+.title {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  color: var(--color-text);
+  margin: 0;
+}
+.subtitle {
+  font-size: 0.85rem;
+  color: var(--color-muted-text);
+  margin-top: 0.35rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.empty {
+  text-align: center;
+  color: var(--color-muted-text);
+  padding: 3rem 0;
+  font-style: italic;
+}
