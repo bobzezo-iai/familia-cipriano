@@ -72,3 +72,6 @@ src/theme/theme.css                    # CSS variables e classes globais
 - **Netos documentados**: ramo do Hélio (5 filhos com Elizabeth Meyer) + Carlos (filho do José)
 - José Augusto Meyer Cipriano: falecido (in memoriam)
 - Sobrenomes de casamento: Mueller (Rose), Metzner (Kátia), Boaventura (Marilu)
+
+---
+`iAi® · ECOssistema Base Tríade®`
